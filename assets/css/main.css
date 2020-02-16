@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #181818;
+  background: #ececec;
   min-width: 800px;
   height: 100vh;
   font-family: Montserrat, sans-serif;
@@ -30,13 +30,13 @@ a {
 }
 
 .container {
-  background: rgb(221, 83, 4);
-  color: #181818;
+  background: rgb(4, 101, 146);
+  color: white;
   padding: 2em;
   margin: 0 50px;
   border-radius: 1em;
-  box-shadow: 2px 2px 1px rgb(15, 15, 15), -2px -2px 3px rgb(30, 30, 30),
-  2px 2px 1px rgb(15, 15, 15), -2px -2px 3px rgb(30, 30, 30);
+  box-shadow: 2px 2px 1px rgb(184, 184, 184), -2px -2px 3px rgb(255, 255, 255),
+  2px 2px 1px rgb(177, 177, 177), -2px -2px 3px rgb(255, 255, 255);
 }
 
 .social {
@@ -45,16 +45,16 @@ a {
 }
 
 .card {
-  background: #181818;
-  color: rgb(221, 83, 4);
+  background: #fff;
+  color: rgb(4, 101, 146);
   padding: 1em;
   border-radius: 0.3em;
-  box-shadow: 1px 1px 3px rgb(15, 15, 15), -1px -1px 1px rgb(60, 60, 60),
-  2px 2px 3px rgb(15, 15, 15), -2px -2px 1px rgb(60, 60, 60);
+  box-shadow: 1px 1px 3px rgb(5, 57, 105), -1px -1px 1px rgb(255, 255, 255),
+  2px 2px 3px rgb(5, 60, 110), -2px -2px 1px rgb(255, 255, 255);
 }
 
 i.fab, .card h3 {
-  color: rgb(221, 83, 4);
+  color: rgb(4, 101, 146);
 }
 
 i.fab:hover, .card h3:hover {
@@ -73,7 +73,7 @@ i.fab:hover, .card h3:hover {
 }
 
 footer a {
-  color: rgb(202, 63, 7);
+  color: #333;
 }
 
 footer p {
