@@ -5,8 +5,7 @@
 }
 
 body {
-  background: #ececec;
-  min-width: 800px;
+  background: #131313;
   height: 100vh;
   font-family: Montserrat, sans-serif;
   display: grid;
@@ -20,9 +19,20 @@ h1 {
   margin-bottom: 15px;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 2em;
+  margin: 0 0 0.2em;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
 p {
   padding: 0.7em 0 2em 0;
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 
 a {
@@ -30,13 +40,14 @@ a {
 }
 
 .container {
-  background: rgb(4, 101, 146);
+  max-width: 1000px;
+  background: rgb(224, 93, 5);
   color: white;
   padding: 2em;
-  margin: 0 50px;
+  margin: 4em 3em;
   border-radius: 1em;
-  box-shadow: 2px 2px 1px rgb(184, 184, 184), -2px -2px 3px rgb(255, 255, 255),
-  2px 2px 1px rgb(177, 177, 177), -2px -2px 3px rgb(255, 255, 255);
+  box-shadow: 2px 2px 1px rgb(29, 29, 29), 2px 2px 1px rgb(29, 29, 29), -2px -2px 3px rgb(49, 49, 49), 
+    -2px -2px 3px rgb(49, 49, 49);
 }
 
 .social {
@@ -46,23 +57,34 @@ a {
 
 .card {
   background: #fff;
-  color: rgb(4, 101, 146);
-  padding: 1em;
+  width: 120px;
+  color: rgb(236, 126, 0);
+  margin: 0 1em 2em;
+  padding: 0.8em;
   border-radius: 0.3em;
-  box-shadow: 1px 1px 3px rgb(5, 57, 105), -1px -1px 1px rgb(255, 255, 255),
-  2px 2px 3px rgb(5, 60, 110), -2px -2px 1px rgb(255, 255, 255);
+  box-shadow: 1px 1px 3px rgb(83, 40, 0), 2px 2px 3px rgb(83, 40, 0), -1px -1px 2px rgb(247, 247, 247),
+    -2px -2px 2px rgb(255, 255, 255);
 }
 
-i.fab, .card h3 {
-  color: rgb(4, 101, 146);
+i.fab,
+.card h3 {
+  color: rgb(224, 93, 5);
 }
 
-i.fab:hover, .card h3:hover {
+.link {
+  color: rgb(224, 93, 5);
+  text-align: center;
+}
+
+i.fab:hover,
+.card h3:hover {
   transition: 0.5s ease-in-out;
   color: #333;
 }
 
 .card h3 {
+  font-size: 1em;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 0.7em;
 }
@@ -72,14 +94,87 @@ i.fab:hover, .card h3:hover {
   text-align: center;
 }
 
+footer {
+  margin-bottom: 1.5em;
+}
+
 footer a {
-  color: #333;
+  color: rgb(156, 156, 156);
+}
+
+footer a:hover {
+  font-weight: 700;
+  color: rgb(224, 224, 224);
+}
+
+footer i:hover {
+  color: rgb(231, 16, 16);
 }
 
 footer p {
   padding: 0;
-  margin-bottom: 0.7em;
+  margin: 0 0 0.2em 0;
   text-align: center;
   font-size: 0.8em;
   color: rgb(114, 114, 114);
+}
+
+/* Responsive Layout */
+
+@media screen and (max-width: 799px) {
+  p {
+    margin-top: 2em;
+  }
+
+  .social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-gap: 1em;
+  }
+
+  .card {
+    width: 180px;
+    color: rgb(224, 93, 5);
+    margin: 0 1em 2em;
+    padding: 1.2em;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(114, 114, 114);
+  }
+}
+
+@media screen and (max-width: 619px) {
+  h2 {
+    font-size: 1.7em;
+    margin: 0 0 0.2em;
+  }
+
+  .container {
+    margin: 1em 1em;
+  }
+
+  .social {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 1em;
+  }
+
+  .card {
+    width: 180px;
+    color: rgb(224, 93, 5);
+    margin: 0 1em 2em;
+    padding: 1.2em;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(114, 114, 114);
+  }
 }
