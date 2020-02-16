@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+  min-width: 800px;
+  height: 100vh;
+  font-family: Montserrat, sans-serif;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: Courgette, sans-serif;
+  font-size: 4em;
+  margin-bottom: 15px;
+}
+
+p {
+  padding: 0.7em 0 2em 0;
+  margin-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background: rgb(221, 83, 4);
+  color: #181818;
+  padding: 2em;
+  margin: 0 50px;
+  border-radius: 1em;
+  box-shadow: 2px 2px 1px rgb(15, 15, 15), -2px -2px 3px rgb(30, 30, 30),
+  2px 2px 1px rgb(15, 15, 15), -2px -2px 3px rgb(30, 30, 30);
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  background: #181818;
+  color: rgb(221, 83, 4);
+  padding: 1em;
+  border-radius: 0.3em;
+  box-shadow: 1px 1px 3px rgb(15, 15, 15), -1px -1px 1px rgb(60, 60, 60),
+  2px 2px 3px rgb(15, 15, 15), -2px -2px 1px rgb(60, 60, 60);
+}
+
+i.fab, .card h3 {
+  color: rgb(221, 83, 4);
+}
+
+i.fab:hover, .card h3:hover {
+  transition: 0.5s ease-in-out;
+  color: #333;
+}
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.card i {
+  display: block;
+  text-align: center;
+}
+
+footer a {
+  color: rgb(202, 63, 7);
+}
+
+footer p {
+  padding: 0;
+  margin-bottom: 0.7em;
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(114, 114, 114);
+}
