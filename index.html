@@ -6,53 +6,54 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway%7cRighteous&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-    <title>Archet | Project Demos</title>
+    <title>Archet | Web Design & App Showcase</title>
   </head>
   <body>
     <!-- * Navbar * -->
-    <nav id="navbar">
-      <div id="home" class="container">
-        <div class="logo">
-          <a href="#top">
-            <img src="./img/archet_logo.svg" alt="Archet Logo" />
-            <h2>Archet</h2></a
-          >
-        </div>
-        <ul>
-          <li>
-            <a href="#top"><i class="fad fa-home"></i> Home</a>
-          </li>
-          <li>
-            <a href="#about"><i class="fad fa-info"></i> About</a>
-          </li>
-          <li>
-            <a href="#projects"><i class="fad fa-project-diagram"></i> Projects</a>
-          </li>
-          <li>
-            <a href="#contact"><i class="fad fa-envelope"></i> Contact</a>
-          </li>
-        </ul>
+    <nav id="navbar" class="container">
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./img/archet_logo.svg" alt="Archet Logo" />
+          <h2>Archet</h2></a
+        >
       </div>
+      <ul>
+        <li>
+          <a href="#navbar"><i class="fad fa-home"></i> Home</a>
+        </li>
+        <li>
+          <a href="#about"><i class="fad fa-info"></i> About</a>
+        </li>
+        <li>
+          <a href="#showcase"><i class="fad fa-project-diagram"></i> Projects</a>
+        </li>
+        <li>
+          <a href="#contact"><i class="fad fa-envelope"></i> Contact</a>
+        </li>
+      </ul>
     </nav>
-
-    <!-- TODO: Add Social Media Links -->
-
-    <main>
+    <main class="container">
       <!-- * Section: About * -->
       <section id="about">
         <div class="about-container">
-          <h1>About Archet</h1>
-          <p>
-            Interested in seeing what I am working on at the moment, or view the full library of past projects? This is
-            where you'll find all of it. This is a place for me to
-          </p>
+          <div><img src="./img/about_background.jpg" alt="Web Design & App Showcase" /></div>
+          <div>
+            <h1>Web Design & App Showcase</h1>
+            <p>
+              As a freelance web developer I am required to master a variety of skill sets, and on this site I have
+              published fully operational live demos of my work. These projects range from imaginary fake sites to
+              production websites and client work.
+            </p>
+            <p>
+              You can also check out the GitHub links if you are into coding and stuff and would like to see how I work.
+            </p>
+          </div>
         </div>
       </section>
-      <!-- TODO: Add About Section -->
+
       <!-- * Section: Projects * -->
       <section id="showcase">
-        <div class="container">
-          <h1 id="projects">View <span class="highlight">live</span> demos of my projects.</h1>
+        <div class="showcase-container">
           <ul class="cards">
             <li>
               <h2>NewsGrid</h2>
@@ -95,7 +96,7 @@
               </div>
             </li>
             <li>
-              <h2>CSS Hamburger Menu</h2>
+              <h2>Hamburger Menu</h2>
               <p>Small demo of an animated hamburger menu for mobile devices using only CSS</p>
               <img src="./img/hamburger_menu.jpg" alt="Hamburger Menu" />
               <div class="tags">

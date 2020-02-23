@@ -3,23 +3,27 @@ FontAwesomeConfig = {
   autoReplaceSvg: 'nest'
 };
 
-// * Sticky Navbar
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {
-  myFunction();
-};
-
-// Get the navbar
-var navbar = document.getElementById('navbar');
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add('sticky');
+// * Add Opacity to Navbar background on Scroll
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 150) {
+    this.document.querySelector('#navbar').style.opacity = 0.9;
   } else {
-    navbar.classList.remove('sticky');
+    this.document.querySelector('#navbar').style.opacity = 1;
   }
-}
+});
+
+// * Smooth Scrolling
+$('#navbar a').on('click', function(event) {
+  if (this.hash != '') {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $('html, body').animate(
+      {
+        scrollTop: $(hash).offset().top - 100
+      },
+      800
+    );
+  }
+});
