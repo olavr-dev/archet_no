@@ -364,6 +364,78 @@ a:hover {
   pointer-events: none;
 }
 
+.btn-success {
+  transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  margin-top: 2rem;
+}
+
+#success .success-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 3rem 2rem;
+  padding: 2rem;
+  background: #fff;
+  color: #333;
+  top: 2rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px #f2f2f2;
+  transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+}
+
+#success .success-container > div:first-child img {
+  height: auto;
+  width: 100%;
+  transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+#success h1,
+#success p {
+  line-height: 1.6;
+  margin-top: 2rem;
+  transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+}
+
+#success h1 {
+  font-size: 1.8rem;
+}
+
+#success .highlight {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+#success .below-form a {
+  color: #333;
+  font-weight: bold;
+}
+
+#success .below-form a:hover {
+  color: var(--primary-color);
+}
+
 .footer {
   text-align: center;
   font-size: 0.75rem;
