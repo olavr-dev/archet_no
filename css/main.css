@@ -28,6 +28,13 @@ a:hover {
   -o-transition: all 0.3s ease-in-out;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -137,13 +144,24 @@ a:hover {
 
 #about h1,
 #about p {
-  line-height: 1.6;
-  margin-top: 2rem;
   transform: skewY(2deg);
   -webkit-transform: skewY(2deg);
   -moz-transform: skewY(2deg);
   -ms-transform: skewY(2deg);
   -o-transform: skewY(2deg);
+}
+
+#about h1 {
+  margin: 2rem 0;
+}
+
+#about p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+#about p a {
+  font-weight: bold;
 }
 
 #about h1 {
@@ -353,7 +371,7 @@ a:hover {
 
 #form .form .btn {
   width: 100%;
-  margin: 1rem 0;
+  margin: 1rem 0 3rem 0;
 }
 
 #form .form-fields > div:last-child img {
