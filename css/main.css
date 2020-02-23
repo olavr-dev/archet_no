@@ -108,6 +108,7 @@ a:hover {
 
 #navbar ul li a {
   color: #333;
+  padding: 1rem;
   text-decoration: none;
 }
 
