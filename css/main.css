@@ -149,6 +149,12 @@ a:hover {
   opacity: 0.5;
 }
 
+#about .about-container {
+  max-width: 1100px;
+  margin: 5rem auto;
+  padding: 2rem;
+}
+
 #showcase .container {
   max-width: 1100px;
   margin: 5rem auto;
