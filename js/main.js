@@ -27,3 +27,10 @@ $('#navbar a').on('click', function(event) {
     );
   }
 });
+
+// * Form Success Message
+jQuery(function($) {
+  $('body').on('submit.frontSubmit', function(e) {
+    $('#success').show();
+  });
+});
