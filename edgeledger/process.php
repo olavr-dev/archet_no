@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: https://demo.archet.no/edgeledger/success.html');
+    header('Location: https://www.archet.no/edgeledger/success.html');
   }
