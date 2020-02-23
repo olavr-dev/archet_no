@@ -3,61 +3,189 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Archet</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/cookies.css" />
-    <link href="https://fonts.googleapis.com/css?family=Courgette|Montserrat&display=swap" rel="stylesheet" />
-    <script src="assets/js/cookies.js"></script>
-    <script src="https://kit.fontawesome.com/be825b709f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7cRighteous&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Archet | Project Demos</title>
   </head>
   <body>
-    <main>
-      <div class="container">
-        <div class="info">
-          <h1>Hello!</h1>
-          <h2>Welcome to Archet</h2>
-          <p>
-            The site is currently being designed. You can find me on the sites below in the meantime!
-          </p>
+    <nav id="navbar">
+      <div id="home" class="container">
+        <div class="logo">
+          <a href="#top">
+            <img src="./img/archet_logo.svg" alt="Archet Logo" />
+            <h2>Archet</h2></a
+          >
         </div>
-        <div class="social">
-          <div class="card">
-            <a href="https://twitter.com/OlavRorvik" alt="Olav Rørvik on Twitter" target="_blank">
-              <h3>Twitter</h3>
-              <i class="fab fa-twitter fa-5x"></i
-            ></a>
-          </div>
-          <div class="card">
-            <a href="https://www.facebook.com/olav.rorvik" alt="Archet on Codepen" target="_blank">
-              <h3>Codepen</h3>
-              <i class="fab fa-codepen fa-5x"></i
-            ></a>
-          </div>
-          <div class="card">
-            <a
-              href="http://www.youtube.com"
-              alt="Archet on YouTube"
-              target="_blank"
+        <ul>
+          <li>
+            <a href="#top"
+              ><!-- <i class="fad fa-home"></i> -->
+              Home</a
             >
-              <h3>YouTube</h3>
-              <i class="fab fa-youtube fa-5x"></i
-            ></a>
-          </div>
-          <div class="card">
-            <a href="https://github.com/olavr-dev" alt="Archet on GitHub" target="_blank">
-              <h3>GitHub</h3>
-              <i class="fab fa-github fa-5x"></i>
-            </a>
-          </div>
-        </div>
+          </li>
+          <li>
+            <a href="#"
+              ><!-- <i class="fad fa-info"></i> -->
+              About</a
+            >
+          </li>
+          <li>
+            <a href="#projects"
+              ><!-- <i class="fad fa-project-diagram"></i> -->
+              Projects</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><!-- <i class="fad fa-envelope"></i> -->
+              Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- TODO: Add Social Media Links -->
+
+    <!-- TODO: Add About Section -->
+
+    <main id="showcase">
+      <div class="container">
+        <h1 id="projects">View <span class="highlight">live</span> demos of my projects.</h1>
+        <ul class="cards">
+          <li>
+            <h2>NewsGrid</h2>
+            <p>
+              Fake news site. Layout with Grid. Made during a
+              <a href="https://www.udemy.com/course/modern-html-css-from-the-beginning" target="_blank">Udemy course</a>
+              on HTML + CSS
+            </p>
+            <img src="./img/newsgrid.jpg" alt="NewsGrid" />
+            <div class="tags">
+              <p>HTML, CSS</p>
+            </div>
+            <div class="btns">
+              <div><a class="btn" href="./newsgrid/index.html" target="_blank">Live Demo</a></div>
+              <div>
+                <a class="btn github" href="https://github.com/olavr-dev/newsgrid" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h2>EdgeLedger</h2>
+            <p>
+              Landing page for a fake financial firm. Layout with Flex. Made during a
+              <a href="https://www.udemy.com/course/modern-html-css-from-the-beginning" target="_blank">
+                Udemy course</a
+              >
+              on HTML + CSS
+            </p>
+            <img src="./img/edgeledger.jpg" alt="EdgeLedger" />
+            <div class="tags">
+              <p>HTML, CSS, JS</p>
+            </div>
+            <div class="btns">
+              <div><a class="btn" href="./edgeledger/index.html" target="_blank">Live Demo</a></div>
+              <div>
+                <a class="btn github" href="https://github.com/olavr-dev/edgeledger" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h2>CSS Hamburger Menu</h2>
+            <p>Small demo of an animated hamburger menu for mobile devices using only CSS</p>
+            <img src="./img/hamburger_menu.jpg" alt="Hamburger Menu" />
+            <div class="tags">
+              <p>HTML, CSS</p>
+            </div>
+            <div class="btns">
+              <div><a class="btn" href="./hamburger_menu/index.html" target="_blank">Live Demo</a></div>
+              <div>
+                <a class="btn github" href="https://github.com/olavr-dev/css_hamburger_overlay" target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <h2>Hotel BT</h2>
+            <p>
+              Fake hotel website. Old-school layout using Floats.. <i class="fad fa-poo"></i> Made during a
+              <a href="https://www.udemy.com/course/modern-html-css-from-the-beginning" target="_blank">
+                Udemy course</a
+              >
+              on HTML + CSS
+            </p>
+            <img src="./img/hotel_bt.jpg" alt="Hotel BT" />
+            <div class="tags">
+              <p>HTML, CSS</p>
+            </div>
+            <div class="btns">
+              <div><a class="btn" href="./hotel_bt/index.html" target="_blank">Live Demo</a></div>
+              <div>
+                <a class="btn github" href="https://github.com/olavr-dev/hotel_bt" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h2>Knowledge Resume</h2>
+            <p>
+              Animated timeline of languages and developer tools. Made during a
+              <a href="https://www.udemy.com/course/modern-html-css-from-the-beginning" target="_blank">
+                Udemy course</a
+              >
+              on HTML + CSS
+            </p>
+            <img src="./img/resume.jpg" alt="Knowledge Resume" />
+            <div class="tags">
+              <p>HTML, CSS, JS</p>
+            </div>
+            <div class="btns">
+              <div><a class="btn" href="./knowledge_resume/index.html" target="_blank">Live Demo</a></div>
+              <div>
+                <a class="btn github" href="https://github.com/olavr-dev/knowledge_resume" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <h2>Animated Presentation</h2>
+            <p>
+              Small CSS animation project with JS smooth scrolling. Made during a
+              <a href="https://www.udemy.com/course/modern-html-css-from-the-beginning" target="_blank">
+                Udemy course</a
+              >
+              on HTML + CSS
+            </p>
+            <img src="./img/presentation.jpg" alt="Animated Presentation" />
+            <div class="tags">
+              <p>HTML, CSS, JS</p>
+            </div>
+            <div class="btns">
+              <div><a class="btn" href="./presentation/index.html" target="_blank">Live Demo</a></div>
+              <div>
+                <a class="btn github" href="https://github.com/olavr-dev/animated_presentation" target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </main>
-    <footer>
+
+    <!-- TODO: Add Contact Form -->
+
+    <footer class="footer">
       <p>
-        Content <i class="far fa-copyright" title="Don't steal my stuff!"></i> 2020
-        <a href="http://www.olavrorvik.no" alt="OlavRorvik.no" target="_blank">Archet</a> + Design by <a href="http://www.archetweb.no">Archet Web Design</a>
+        Design and Content <i class="far fa-copyright" title="Don't steal my content"></i> 2020
+        <a href="http://www.olavrorvik.no" target="_blank">Olav Rørvik</a>
+        at
+        <a href="http://www.archetweb.no">Archet Web Design</a>
       </p>
       <p>Made with <i class="fas fa-coffee" title="Caffeine"></i> and <i class="fas fa-heart" title="Love"></i></p>
     </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/be825b709f.js" crossorigin="anonymous"></script>
   </body>
 </html>
