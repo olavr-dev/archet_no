@@ -9,7 +9,7 @@
     $message = $_POST['message'];
     
     //send email
-    mail($admin_email, "Archet.no | Form Submission", $message . ' Telephone: ' . $phone, "From:" . $email);
+    mail($admin_email, "Archet.no | Form Submission", $message . ' Phone: ' . $phone, "From:" . $email);
     
     header('Location: https://www.archet.no/success.html');
   }
