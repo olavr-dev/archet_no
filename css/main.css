@@ -11,7 +11,7 @@
 html,
 body {
   background: #f4f4f4;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -335,7 +335,7 @@ a.anchor {
 
 #form .form input,
 #form .form textarea {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   padding: 1rem;
   display: inline-block;
