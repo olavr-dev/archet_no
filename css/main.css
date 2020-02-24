@@ -49,17 +49,15 @@ a.anchor {
   z-index: 1;
 }
 
-#navbar .logo a {
-  display: flex;
-}
-
 #navbar .logo img {
-  margin: 0rem 1rem 0rem 2rem;
+  display: inline-block;
+  margin: 0.7rem 1rem 1rem 2rem;
   width: 35px;
+  vertical-align: middle;
 }
 
-#navbar .logo h2 {
-  margin: 0.7rem 0;
+#navbar .logo a h2 {
+  display: inline-block;
 }
 
 #navbar ul {
