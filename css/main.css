@@ -533,6 +533,10 @@ a.anchor {
     margin-bottom: 1rem;
   }
 
+  .btn-success {
+    text-align: left;
+  }
+
   #form .form-fields {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
@@ -588,6 +592,10 @@ a.anchor {
   .github {
     display: block;
     margin-top: 1.5rem;
+  }
+
+  .btn-success {
+    text-align: center;
   }
 }
 
