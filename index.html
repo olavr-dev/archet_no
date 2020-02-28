@@ -351,7 +351,9 @@
             </p>
             <form class="form-fields" action="./process.php" method="POST">
               <div class="form">
-                <p><i class="fad fa-user"></i> Name *</p>
+                <p>
+                  <label for="name"> <i class="fad fa-user"></i> Name *</label>
+                </p>
                 <input
                   type="text"
                   name="name"
@@ -359,7 +361,11 @@
                   data-rule="required"
                   data-msg="Please enter your first name."
                 />
-                <p><i class="fad fa-envelope"></i> E-mail *</p>
+                <p>
+                  <label for="email"
+                    ><i class="fad fa-envelope"></i> E-mail *</label
+                  >
+                </p>
                 <input
                   type="email"
                   name="email"
@@ -367,10 +373,19 @@
                   data-rule="email"
                   data-msg="Please enter a valid email address."
                 />
-                <p><i class="fad fa-phone"></i> Phone number</p>
+                <p>
+                  <label for="phone">
+                    <i class="fad fa-phone"></i> Phone number</label
+                  >
+                </p>
                 <input type="text" name="phone" id="phone" />
-                <p><i class="fad fa-comments"></i> Message *</p>
+                <p>
+                  <label for="message">
+                    <i class="fad fa-comments"></i> Message *</label
+                  >
+                </p>
                 <textarea
+                  id="message"
                   name="message"
                   data-rule="required"
                   data-msg="Please enter your message."
