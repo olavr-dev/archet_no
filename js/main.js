@@ -12,25 +12,25 @@ window.addEventListener('scroll', function() {
   }
 });
 
-// * Smooth Scrolling
-$('#navbar a').on('click', function(event) {
-  if (this.hash != '') {
-    event.preventDefault();
+// // * Smooth Scrolling
+// $('#navbar a').on('click', function(event) {
+//   if (this.hash != '') {
+//     event.preventDefault();
 
-    const hash = this.hash;
+//     const hash = this.hash;
 
-    $('html, body').animate(
-      {
-        scrollTop: $(hash).offset().top - 100
-      },
-      800
-    );
-  }
-});
+//     $('html, body').animate(
+//       {
+//         scrollTop: $(hash).offset().top - 100
+//       },
+//       800
+//     );
+//   }
+// });
 
-// * Form Success Message
-jQuery(function($) {
-  $('body').on('submit.frontSubmit', function(e) {
-    $('#success').show();
-  });
-});
+// // * Form Success Message
+// jQuery(function($) {
+//   $('body').on('submit.frontSubmit', function(e) {
+//     $('#success').show();
+//   });
+// });
