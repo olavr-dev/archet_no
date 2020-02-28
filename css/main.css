@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #ff931e;
+  --primary-color: #fd8300;
 }
 
 * {
@@ -12,6 +12,15 @@ html,
 body {
   background: #f4f4f4;
   font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
 }
 
 a {
@@ -310,7 +319,8 @@ a.anchor {
 }
 
 #form .highlight {
-  color: var(--primary-color);
+  color: #9a3a00;
+  font-weight: bold;
 }
 
 #form a {
